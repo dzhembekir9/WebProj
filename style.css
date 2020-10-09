@@ -1,39 +1,40 @@
 body{
     margin: 0;
-    background-color: gray;
+    background-color: white;
 } 
 .buttons{
     margin: 0;
-    border: 25px solid white;
+    border: 25px solid #88b04b;
     text-align: center;
     list-style: none;
-    background-color: white;
+    background-color: #88b04b;
+    padding: 0;
 }
 h1{
     margin: 0;
-    border: 40px solid #0090cd;
-    background-color: #0090cd;
-    color: white;
+    border: 40px solid #f5f7fa;
+    background-color: #f5f7fa;
+    color:#88b04b;
     -webkit-text-stroke: 0.01em black;
     
 }
 span{
-    margin: 5px;
-    margin: 76px;
-    padding: 0;
-    border: 10px solid white;
-    border-right-color: #0090cd;
+    border: 10px solid #88b04b;
+    border-right-color: #404f5e;
     border-width: 2px;
+    padding-right: 76px;
+    padding-left: 76px;
 
 }
 .text{
-    color: white;
+    color: #404f5e;
     text-align: justify;
-    border: 40px solid grey;
+    border: 40px solid white;
+    -webkit-text-stroke: 0.01em black;
 }
 h2{
-    border: 40px solid grey;
-    color: #0090cd;
+    border: 40px solid white;
+    color: #88b04b;
     margin: 0;
     border-bottom: 0px;
     -webkit-text-stroke: 0.02em black;
@@ -48,20 +49,21 @@ h2{
 
 }
 .line{
-    border-top: 3px solid white;
+    border-top: 2px solid #88b04b;
 }
 footer{
     border: 20px solid white;
     background-color: white;
-    border-top-color: black;
-    border-width: 1px;
+    border-top-color: #88b04b;
+    border-width: 2px;
 }
 .footer-text{
     text-align: center;
+    color: #404f5e;
 }
 .main:hover{
-    background-color: #0090cd;
+    background-color: white;
 }
 .main:active{
-    color: grey;
+    color: #404f5e;
 }
