@@ -2,13 +2,14 @@ body{
     margin: 0;
     background-color: white;
 } 
-.buttons{
-    margin: 0;
-    border: 25px solid #88b04b;
-    text-align: center;
-    list-style: none;
-    background-color: #88b04b;
-    padding: 0;
+.container{
+    display: flex;
+    border: 3px solid#88b04b;
+    justify-content: space-evenly;
+
+}
+.box{   
+    flex: 1;
 }
 h1{
     margin: 0;
@@ -17,14 +18,6 @@ h1{
     color:#88b04b;
     -webkit-text-stroke: 0.01em black;
     
-}
-span{
-    border: 10px solid #88b04b;
-    border-right-color: #404f5e;
-    border-width: 2px;
-    padding-right: 76px;
-    padding-left: 76px;
-
 }
 .text{
     color: #404f5e;
@@ -51,19 +44,17 @@ h2{
 .line{
     border-top: 2px solid #88b04b;
 }
-footer{
-    border: 20px solid white;
-    background-color: white;
-    border-top-color: #88b04b;
-    border-width: 2px;
+.footer-container{
+    display: flex;
+    border: 40px solid white;
+    justify-content: space-evenly;
 }
-.footer-text{
-    text-align: center;
+.footer-box{
     color: #404f5e;
 }
-.main:hover{
-    background-color: white;
+.box:hover{
+    background-color: #88b04b;
 }
-.main:active{
+.box:active{
     color: #404f5e;
 }
