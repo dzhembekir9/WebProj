@@ -1,17 +1,47 @@
+/* index.html */
+
 body{
     margin: 0;
     background-color: white;
 } 
-.container{
+.title-container{
     display: flex;
-    border: 3px solid#88b04b;
+    background-color: #f5f7fa;
+    border: 1px solid #88b04b;
+    border-bottom: 0;
+}
+.title-box{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.buttons-container{
+    display: flex;
+    border: 3px solid #88b04b;
     justify-content: space-evenly;
+    padding-bottom: 20px;
+    padding-top: 20px;
 
 }
-.box{   
+.buttons-box{   
     flex: 1;
 }
-h1{
+
+.article-container{
+    display: flex;
+    flex-direction: column;
+}
+
+p.article-box{
+    color: #404f5e;
+    text-align: justify;
+    -webkit-text-stroke: 0.01em black;
+    padding: 40px 40px 10px 40px;
+}
+div.article-box{
+    text-align: center;
+}
+
+h1.title-box{
     margin: 0;
     border: 40px solid #f5f7fa;
     background-color: #f5f7fa;
@@ -19,31 +49,19 @@ h1{
     -webkit-text-stroke: 0.01em black;
     
 }
-.text{
-    color: #404f5e;
-    text-align: justify;
-    border: 40px solid white;
-    -webkit-text-stroke: 0.01em black;
-}
-h2{
+
+h2.article-box{
     border: 40px solid white;
     color: #88b04b;
     margin: 0;
     border-bottom: 0px;
     -webkit-text-stroke: 0.02em black;
 }
-.home-image{
-    display: block;
-    border-bottom: 20px;
-    border-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
 
-}
 .line{
     border-top: 2px solid #88b04b;
 }
+
 .footer-container{
     display: flex;
     border: 40px solid white;
@@ -58,3 +76,10 @@ h2{
 .box:active{
     color: #404f5e;
 }
+:any-link { 
+    text-decoration: none;
+    color: #404f5e;
+}
+
+/*whey.html*/
+
