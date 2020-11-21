@@ -15,12 +15,10 @@ body{
     padding-bottom: 15px;
 }
 .buttons-container{
+    padding: 22px;
     display: flex;
-    border: 3px solid #88b04b;
+    background-color: #88b04b;
     justify-content: space-evenly;
-    padding-bottom: 20px;
-    padding-top: 20px;
-
 }
 .buttons-box{   
     flex: 1;
@@ -81,5 +79,57 @@ h2.article-box{
     color: #404f5e;
 }
 
-/*whey.html*/
+@media screen and (max-width: 1000px) {
+
+    .title-container {
+        justify-content: center;
+        font-size: 40px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-box {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    
+    .burger-nav {
+        display: block;
+        height: 40px;
+        width: 100%;
+        background: url(/menu.png) no-repeat 98% center;
+        background-color: #88b04b;
+        cursor: pointer;
+    }
+
+    .buttons-container {
+        height: 0;
+        width: 0;
+    }
+
+    div.buttons-container {
+        overflow: hidden;
+        background-color: rgb(126, 155, 82);
+        height: auto;
+        width: auto;
+        flex-direction: column;
+    }
+
+    a.buttons-box {
+        padding: 10px;
+        border-bottom: 1px solid #404f5e;
+        display: block;
+    }
+}
 
